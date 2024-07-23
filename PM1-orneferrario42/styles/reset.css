@@ -1,0 +1,112 @@
+/* Reset CSS */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* List reset */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Normalize heading margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+}
+
+/* Reset anchor text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Reset button styling */
+button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* Reset form element styling */
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Reset image border */
+img {
+  border-style: none;
+}
+
+/* Responsive media */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Optional: Add your own custom styles below this line */
